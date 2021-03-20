@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27D5BA2F2605DB85005D9DFC /* Shimmer_EffectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5BA2E2605DB85005D9DFC /* Shimmer_EffectApp.swift */; };
+		27D5BA312605DB85005D9DFC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5BA302605DB85005D9DFC /* ContentView.swift */; };
+		27D5BA332605DB86005D9DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D5BA322605DB86005D9DFC /* Assets.xcassets */; };
+		27D5BA362605DB86005D9DFC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D5BA352605DB86005D9DFC /* Preview Assets.xcassets */; };
+		27D5BA412605DB86005D9DFC /* Shimmer_EffectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5BA402605DB86005D9DFC /* Shimmer_EffectTests.swift */; };
+		27D5BA4C2605DB86005D9DFC /* Shimmer_EffectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D5BA4B2605DB86005D9DFC /* Shimmer_EffectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27D5BA3D2605DB86005D9DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D5BA232605DB85005D9DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D5BA2A2605DB85005D9DFC;
+			remoteInfo = "Shimmer Effect";
+		};
+		27D5BA482605DB86005D9DFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27D5BA232605DB85005D9DFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27D5BA2A2605DB85005D9DFC;
+			remoteInfo = "Shimmer Effect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27D5BA2B2605DB85005D9DFC /* Shimmer Effect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shimmer Effect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D5BA2E2605DB85005D9DFC /* Shimmer_EffectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer_EffectApp.swift; sourceTree = "<group>"; };
+		27D5BA302605DB85005D9DFC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27D5BA322605DB86005D9DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27D5BA352605DB86005D9DFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27D5BA372605DB86005D9DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D5BA3C2605DB86005D9DFC /* Shimmer EffectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shimmer EffectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D5BA402605DB86005D9DFC /* Shimmer_EffectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer_EffectTests.swift; sourceTree = "<group>"; };
+		27D5BA422605DB86005D9DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D5BA472605DB86005D9DFC /* Shimmer EffectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shimmer EffectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D5BA4B2605DB86005D9DFC /* Shimmer_EffectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shimmer_EffectUITests.swift; sourceTree = "<group>"; };
+		27D5BA4D2605DB86005D9DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D5BA282605DB85005D9DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA392605DB86005D9DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA442605DB86005D9DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27D5BA222605DB85005D9DFC = {
+			isa = PBXGroup;
+			children = (
+				27D5BA2D2605DB85005D9DFC /* Shimmer Effect */,
+				27D5BA3F2605DB86005D9DFC /* Shimmer EffectTests */,
+				27D5BA4A2605DB86005D9DFC /* Shimmer EffectUITests */,
+				27D5BA2C2605DB85005D9DFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27D5BA2C2605DB85005D9DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D5BA2B2605DB85005D9DFC /* Shimmer Effect.app */,
+				27D5BA3C2605DB86005D9DFC /* Shimmer EffectTests.xctest */,
+				27D5BA472605DB86005D9DFC /* Shimmer EffectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D5BA2D2605DB85005D9DFC /* Shimmer Effect */ = {
+			isa = PBXGroup;
+			children = (
+				27D5BA2E2605DB85005D9DFC /* Shimmer_EffectApp.swift */,
+				27D5BA302605DB85005D9DFC /* ContentView.swift */,
+				27D5BA322605DB86005D9DFC /* Assets.xcassets */,
+				27D5BA372605DB86005D9DFC /* Info.plist */,
+				27D5BA342605DB86005D9DFC /* Preview Content */,
+			);
+			path = "Shimmer Effect";
+			sourceTree = "<group>";
+		};
+		27D5BA342605DB86005D9DFC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27D5BA352605DB86005D9DFC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		27D5BA3F2605DB86005D9DFC /* Shimmer EffectTests */ = {
+			isa = PBXGroup;
+			children = (
+				27D5BA402605DB86005D9DFC /* Shimmer_EffectTests.swift */,
+				27D5BA422605DB86005D9DFC /* Info.plist */,
+			);
+			path = "Shimmer EffectTests";
+			sourceTree = "<group>";
+		};
+		27D5BA4A2605DB86005D9DFC /* Shimmer EffectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27D5BA4B2605DB86005D9DFC /* Shimmer_EffectUITests.swift */,
+				27D5BA4D2605DB86005D9DFC /* Info.plist */,
+			);
+			path = "Shimmer EffectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D5BA2A2605DB85005D9DFC /* Shimmer Effect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5BA502605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer Effect" */;
+			buildPhases = (
+				27D5BA272605DB85005D9DFC /* Sources */,
+				27D5BA282605DB85005D9DFC /* Frameworks */,
+				27D5BA292605DB85005D9DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Shimmer Effect";
+			productName = "Shimmer Effect";
+			productReference = 27D5BA2B2605DB85005D9DFC /* Shimmer Effect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27D5BA3B2605DB86005D9DFC /* Shimmer EffectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5BA532605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer EffectTests" */;
+			buildPhases = (
+				27D5BA382605DB86005D9DFC /* Sources */,
+				27D5BA392605DB86005D9DFC /* Frameworks */,
+				27D5BA3A2605DB86005D9DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D5BA3E2605DB86005D9DFC /* PBXTargetDependency */,
+			);
+			name = "Shimmer EffectTests";
+			productName = "Shimmer EffectTests";
+			productReference = 27D5BA3C2605DB86005D9DFC /* Shimmer EffectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27D5BA462605DB86005D9DFC /* Shimmer EffectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D5BA562605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer EffectUITests" */;
+			buildPhases = (
+				27D5BA432605DB86005D9DFC /* Sources */,
+				27D5BA442605DB86005D9DFC /* Frameworks */,
+				27D5BA452605DB86005D9DFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27D5BA492605DB86005D9DFC /* PBXTargetDependency */,
+			);
+			name = "Shimmer EffectUITests";
+			productName = "Shimmer EffectUITests";
+			productReference = 27D5BA472605DB86005D9DFC /* Shimmer EffectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D5BA232605DB85005D9DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					27D5BA2A2605DB85005D9DFC = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					27D5BA3B2605DB86005D9DFC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 27D5BA2A2605DB85005D9DFC;
+					};
+					27D5BA462605DB86005D9DFC = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 27D5BA2A2605DB85005D9DFC;
+					};
+				};
+			};
+			buildConfigurationList = 27D5BA262605DB85005D9DFC /* Build configuration list for PBXProject "Shimmer Effect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D5BA222605DB85005D9DFC;
+			productRefGroup = 27D5BA2C2605DB85005D9DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D5BA2A2605DB85005D9DFC /* Shimmer Effect */,
+				27D5BA3B2605DB86005D9DFC /* Shimmer EffectTests */,
+				27D5BA462605DB86005D9DFC /* Shimmer EffectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D5BA292605DB85005D9DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5BA362605DB86005D9DFC /* Preview Assets.xcassets in Resources */,
+				27D5BA332605DB86005D9DFC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA3A2605DB86005D9DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA452605DB86005D9DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D5BA272605DB85005D9DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5BA312605DB85005D9DFC /* ContentView.swift in Sources */,
+				27D5BA2F2605DB85005D9DFC /* Shimmer_EffectApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA382605DB86005D9DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5BA412605DB86005D9DFC /* Shimmer_EffectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27D5BA432605DB86005D9DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D5BA4C2605DB86005D9DFC /* Shimmer_EffectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27D5BA3E2605DB86005D9DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D5BA2A2605DB85005D9DFC /* Shimmer Effect */;
+			targetProxy = 27D5BA3D2605DB86005D9DFC /* PBXContainerItemProxy */;
+		};
+		27D5BA492605DB86005D9DFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27D5BA2A2605DB85005D9DFC /* Shimmer Effect */;
+			targetProxy = 27D5BA482605DB86005D9DFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27D5BA4E2605DB86005D9DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D5BA4F2605DB86005D9DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D5BA512605DB86005D9DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Shimmer Effect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Shimmer Effect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D5BA522605DB86005D9DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Shimmer Effect/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Shimmer Effect/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-Effect";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27D5BA542605DB86005D9DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shimmer EffectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shimmer Effect.app/Shimmer Effect";
+			};
+			name = Debug;
+		};
+		27D5BA552605DB86005D9DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shimmer EffectTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-EffectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shimmer Effect.app/Shimmer Effect";
+			};
+			name = Release;
+		};
+		27D5BA572605DB86005D9DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shimmer EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shimmer Effect";
+			};
+			name = Debug;
+		};
+		27D5BA582605DB86005D9DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Shimmer EffectUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "YuhanZero.Shimmer-EffectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Shimmer Effect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D5BA262605DB85005D9DFC /* Build configuration list for PBXProject "Shimmer Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5BA4E2605DB86005D9DFC /* Debug */,
+				27D5BA4F2605DB86005D9DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D5BA502605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer Effect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5BA512605DB86005D9DFC /* Debug */,
+				27D5BA522605DB86005D9DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D5BA532605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer EffectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5BA542605DB86005D9DFC /* Debug */,
+				27D5BA552605DB86005D9DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D5BA562605DB86005D9DFC /* Build configuration list for PBXNativeTarget "Shimmer EffectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D5BA572605DB86005D9DFC /* Debug */,
+				27D5BA582605DB86005D9DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27D5BA232605DB85005D9DFC /* Project object */;
+}
